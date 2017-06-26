@@ -1,0 +1,42 @@
+.button {
+	background-color: #0dbfe5;
+	color: #fff;
+	padding: 10px 78px;
+	font-size: 18px;
+	border-radius: 2px;
+	display: inline-block;
+	width: 300px;
+	position: relative;
+	text-align: center;
+}
+.button:hover {
+	background-color: red;
+
+}
+.button:after {
+	content: "";
+	background-image: url('../images/e-mail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 28px;
+	display: inline-block;
+	position: absolute;
+	right: 26px;
+	top: 50%;
+	margin-top: -10px;
+}
+.button:before {
+	content: "";
+	background-image: url('../images/e-mail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 28px;
+	display: inline-block;
+	position: absolute;
+	left: 26px;
+	top: 50%;
+	margin-top: -10px;
+}
+}
