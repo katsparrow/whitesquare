@@ -1,0 +1,235 @@
+body  {
+	background-color: #fff;
+	margin: 0 0;
+	padding: 0 0px;
+	text-decoration: none;
+	border-image: 0;
+	font-family: Segoe UI;
+}
+.header {
+	background-color: #0dbfe5;
+	position: relative;
+	padding: 0 50px;
+}
+.a1 {
+	content: "";
+	background-image: url('../images/e-mail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 28px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	margin-top: -10px;
+}
+.a2 {
+	content: "";
+	background-image: url('../images/wifi.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 28px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	margin-top: -10px;
+	margin-right: 36px;
+}
+.a3 {
+	content: "";
+	background-image: url('../images/e-mail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 28px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	margin-top: -10px;
+	margin-right: 72px;
+}
+.page {
+	display: inline-block;
+	padding: 22px;
+	font-size: 17px;
+	color: #fff;
+	border-right: ridge 1px #0aaacc;
+}
+.content {
+	max-width: 1250px;
+	margin: 0 auto;
+	
+}
+.logo {
+	content: "";
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	height: 47px;
+	width: 140px;
+	margin: 35px 0 47px 58px;
+}
+.menu {
+	background-color: #2e2e2e;
+	color: #fff;
+	margin: 0 50px;	
+	border-bottom: solid 11px black;
+	
+}
+.heading {
+	display: inline-block;
+	padding: 22px 25px;
+	font-family: Segoe UI;
+	font-size: 18px;
+	border-right: ridge 1px black;
+}
+.notes {
+	background-color: #eeeeee;
+	color: #a4a4a4;
+	margin: 0 50px;	
+	text-align: center;
+	font-size: 48px;
+	padding: 30px 0;
+
+	
+}
+.contentleft {
+	width: 800px;
+	float: left;
+	margin: 50px 25px 50px 50px;
+}
+.block {
+	background-image: url('../images/photo.png');
+	height: 300px;
+	width: 800px;
+}
+h3 {
+	font-size: 35px;
+	font-weight: normal;
+	color: #4e4e4e;
+	margin: 19px 2px;
+}
+h5 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #aaaaaa;
+	margin: 19px 0;
+}
+.contentright {
+	width: 300px;
+	float: left;
+	margin: 50px 50px 50px 25px;
+}
+.find {
+	background-color:  #eeeeee;
+	position: relative;
+	padding: 0;
+	
+}
+
+input {
+	font-size: 18px;
+	background-color: #eeeeee;
+	color: #9d9d9d;
+	display: inline-block;
+	position: absolute;
+	padding: 17px 0 20px 20px;
+	border: 0;
+	margin: 0;
+}
+.button {
+	background-image: url('../images/find.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	position: absolute;
+    right: 0px;
+    height: 50px;
+    width: 60px;
+    margin: 0;
+	
+}
+.widget {
+	background-color: #f6f6f6;
+	color: #9d9d9d;
+	font-size: 18px;
+	padding: 15px 20px;
+	margin-top: 50px;
+	position: relative;
+
+}
+.widget:after {
+	content: "";
+	background-image: url('../images/widget.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	height: 20px;
+    width: 20px;
+    right: 13px;
+    margin-top: 5px;
+}
+h4 {
+font-size: 14px;
+font-weight: normal;
+color: #5d5d5d;
+}
+.buttonnext {
+	background-color: #0dbfe5;
+	color: #fff;
+	padding: 10px 25px;
+	font-size: 18px;
+	border-radius: 2px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.content:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+}
+.footer {
+	background-color: #0dbfe5;
+	padding: 0 50px;
+	position: relative;
+}
+.logo2 {
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	height: 47px;
+	width: 140px;
+	//*margin: 35px 0 47px 58px;*//
+	position: absolute;
+	display: inline-block;
+}
+.page2 {
+	display: inline-block;
+	padding: 22px;
+	font-size: 17px;
+	color: #fff;
+	border-right: ridge 1px #0aaacc;
+	position: absolute;
+	right: 60px;
+	}
+.page3 {
+	display: inline-block;
+	padding: 22px;
+	font-size: 17px;
+	color: #fff;
+	border-right: ridge 1px #0aaacc;
+	position: absolute;
+	right: 30px;
+	}
+.page4 {
+	display: inline-block;
+	padding: 22px;
+	font-size: 17px;
+	color: black;
+	border-right: ridge 1px #0aaacc;
+	position: absolute;
+	right: 0;
+	}
